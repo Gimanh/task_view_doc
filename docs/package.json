@@ -1,0 +1,20 @@
+{
+  "name": "task_view_doc",
+  "version": "0.0.1",
+  "description": "docs descr",
+  "main": "index.js",
+  "authors": {
+    "name": "GimanNikolay",
+    "email": "gimanhead@gmail.com"
+  },
+  "repository": "repo/TaskViewDoc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^2.0.4",
+    "vuepress": "1.9.7"
+  }
+}
