@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'TaskView',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -17,10 +17,26 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    ['link', { rel: 'icon', href: './images/logo.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+
+  locales: {
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/': {
+      lang: 'English', // this will be set as the lang attribute on <html>
+      title: '',
+      description: ''
+    },
+    '/ru/': {
+      lang: 'Русский',
+      title: '',
+      description: ''
+    }
+  },
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -28,6 +44,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '/images/logo.png',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -42,10 +59,6 @@ module.exports = {
         text: 'Config',
         link: '/config/'
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
       '/guide/': [
@@ -54,7 +67,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'installation',
+            'directory-structure',
+            'build-from-source',
           ]
         }
       ],

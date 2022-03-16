@@ -4,12 +4,16 @@ sidebar: auto
 
 # Config
 
-## foo
+## Work in progress
 
-- Type: `string`
-- Default: `/`
+[//]: # (- Type: `string`)
 
-## bar
+[//]: # (- Default: `/`)
 
-- Type: `string`
-- Default: `/`
+[//]: # ()
+[//]: # (## bar)
+
+[//]: # ()
+[//]: # (- Type: `string`)
+
+[//]: # (- Default: `/`)
