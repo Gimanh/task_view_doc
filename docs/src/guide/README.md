@@ -1,7 +1,7 @@
 # Introduction
 
 <p style="text-align: center">
-  <img width="200" height="200" src="/images/logo.png">
+  <img width="200" height="200" src="/zxc_php_doc/images/logo.png">
 </p>
 
 <p style="text-align: justify"> 
