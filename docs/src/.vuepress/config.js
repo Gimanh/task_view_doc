@@ -72,6 +72,7 @@ module.exports = {
             'installation',
             'directory-structure',
             'build-from-source',
+            'cli-taskview',
           ]
         }
       ],
