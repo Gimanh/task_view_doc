@@ -73,6 +73,7 @@ module.exports = {
             'directory-structure',
             'build-from-source',
             'cli-taskview',
+            'admins',
           ]
         }
       ],
