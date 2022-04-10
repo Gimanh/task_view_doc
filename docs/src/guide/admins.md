@@ -12,6 +12,17 @@ TaskView administrator panel allow
 - Delete user
 - Search users (localy on client side)
 
+## Steps
+
+- create database `create database task_view_server_admin`
+- change `/config/AppConfig/options.json` `options.public.namespace` set new namespace. This namespace used for
+  localStorage.
+- change setting `/config/DB/options.json` and set credentials for admin database
+- run `taskview-admin --create`
+- run `taskview-admin --update`
+- if you watch change base password run `taskview-admin --get-password` and follow instructions, then copy password hash
+  and replace in database
+
 ## Database
 
 Main deference between application TaskView and TaskViewAdmin is database. Database for admins must be created by you
