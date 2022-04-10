@@ -75,6 +75,7 @@ module.exports = {
                         'build-from-source',
                         'cli-taskview',
                         'admins',
+                        'change-log',
                     ]
                 }
             ],
