@@ -88,6 +88,7 @@ module.exports = {
                     title: 'Blog',
                     collapsable: false,
                     children: [
+                        '',
                         'v1.1.0',
                         'v1.0.1-admin',
                         'v1.0.1',
