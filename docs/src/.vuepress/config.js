@@ -33,11 +33,11 @@ module.exports = {
             title: '',
             description: ''
         },
-        '/ru/': {
-            lang: 'Русский',
-            title: '',
-            description: ''
-        }
+        // '/ru/': {
+        //     lang: 'Русский',
+        //     title: '',
+        //     description: ''
+        // }
     },
 
     /**
@@ -61,6 +61,10 @@ module.exports = {
                 text: 'Config',
                 link: '/config/'
             },
+            {
+                text: 'Blog',
+                link: '/blog/'
+            },
         ],
         sidebar: {
             '/guide/': [
@@ -79,6 +83,18 @@ module.exports = {
                     ]
                 }
             ],
+            '/blog/':[
+                {
+                    title: 'Blog',
+                    collapsable: false,
+                    children: [
+                        'v1.1.0',
+                        'v1.0.1-admin',
+                        'v1.0.1',
+                        'v1.0.0'
+                    ]
+                }
+            ]
         }
     },
 
