@@ -3,6 +3,15 @@
 ## Manual Installation
 Manual installation require next steps.
 
+::: tip
+You can find the application code in the release ZIP archive.  
+Download the source code from GitHub for the version and extract the files.  
+In the extracted files you can find the \_\_APP_BUILD__ directory.    
+There are two directories **admin** and **app**.  
+In the **admin**, you can find the TaskViewAdmin application assembly.  
+In the **app**, you can find the assembly code for the TaskView application.
+:::
+
 ### Preparing environment
 1. Download application code
 2. Install web server
